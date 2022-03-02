@@ -8,9 +8,12 @@ Ormai ne sto accumulando diverse, spero di riuscire a combinare diversi scambi s
 ELEMENTI IMPORTANTI PER L'ESECUZIONE DELL'ESERCIZIO
 
 #Npacchetto
-#Figurina
-#fnuova (Figurina nuova)
-#fdoppione (Figurina Doppione)
+#Figurina(si suddivide in){
+
+    #fnuova (Figurina nuova)
+    #fdoppione (Figurina Doppione)
+    
+}
 #album
 #piladoppioni
 
