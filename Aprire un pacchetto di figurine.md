@@ -8,18 +8,17 @@ Ormai ne sto accumulando diverse, spero di riuscire a combinare diversi scambi s
 ELEMENTI IMPORTANTI PER L'ESECUZIONE DELL'ESERCIZIO
 
 #Npacchetto
+#Pila di carte
 #Figurina(si suddivide in){
-
     #fnuova (Figurina nuova)
     #fdoppione (Figurina Doppione)
-
 }
 #album
 #piladoppioni
 
 -Apertura pacchetto (start)
 -creazione pila carte per effettuare i vari controlli 
--confrontiamo ogni singola carta dell'album per verificare quali sono fnuova e fdoppione
+-confrontiamo ogni singola carta della pila carte per verificare quali sono fnuova e fdoppione
 -controlloare figurina
 if(figurina==fnuova){ 
     aggiungere all' album
@@ -31,3 +30,4 @@ else{
         aggiungere all'album
     }
 }
+verificare che pila carte non contenga nessun elemento, se questo è vero, allora procedere con lo scambio delle carte il sabato sera, se questo è falso ricominciare il ciclo da capo
