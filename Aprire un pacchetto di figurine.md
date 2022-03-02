@@ -12,12 +12,13 @@ ELEMENTI IMPORTANTI PER L'ESECUZIONE DELL'ESERCIZIO
 
     #fnuova (Figurina nuova)
     #fdoppione (Figurina Doppione)
-    
+
 }
 #album
 #piladoppioni
 
 -Apertura pacchetto (start)
+-creazione pila carte per effettuare i vari controlli 
 -confrontiamo ogni singola carta dell'album per verificare quali sono fnuova e fdoppione
 -controlloare figurina
 if(figurina==fnuova){ 
